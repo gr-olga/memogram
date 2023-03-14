@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.card__image {
+    max-width: 300px;
+    max-height: 400px;
+}
+.card__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__like-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "picture1.jpg",
+    "url": "https://example.com/picture1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "picture2.jpg",
+    "url": "https://example.com/picture2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "picture3.jpg",
+    "url": "https://example.com/picture3.jpg"
+  }
+]

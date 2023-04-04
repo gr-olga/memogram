@@ -6,19 +6,52 @@
     margin: auto;
 }
 
+.card__author-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
 .card__image {
     max-width: 300px;
     max-height: 400px;
 }
-.card__info{
+
+.card__info {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
-.card__like-box{
+
+.card__like-box {
     display: flex;
     flex-direction: row;
-    margin-top: 32px;
+    align-items: center;
+    width: 100%;
+}
 
+.card__like {
+    max-width: 20px;
+    max-height: 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.card__like-pic {
+    max-width: 15px;
+    max-height: 15px;
+    margin: auto;
+}
+
+.card__author-img {
+    max-width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 15px;
 }

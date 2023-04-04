@@ -1,18 +1,24 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 import Card from "./components/card/Card";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
-import {getJokeData} from "./api/api";
+import Field from "./components/field/Field";
+
+
 // import {getJokeData} from "./store/AppState/actions"
 
 function App() {
-    getJokeData()
+    // const dispatch = useDispatch()
+    // useEffect(() => {
+    //     // @ts-ignore
+    //     dispatch(getPic())
+    // }, [])
 
     return (
         <div className="App">
             <Header/>
-            <Card/>
+            <Field/>
             <Footer/>
         </div>
     );

@@ -1,7 +1,8 @@
 import {createSlice} from "@reduxjs/toolkit";
 
 const initialState = {
-    joke: ""
+    joke: "",
+    picture: ""
 }
 export const appStateSlice = createSlice({
     name: "appState",
@@ -9,10 +10,13 @@ export const appStateSlice = createSlice({
     reducers: {
         setJoke: (state, action) => {
             state.joke = action.payload
+        },
+        setUrl:(state, action)=>{
+            state.picture = action.payload.url
         }
     }
 })
-export const {setJoke} =
+export const {setJoke, setUrl} =
     appStateSlice.actions;
 
 export default appStateSlice.reducer;
